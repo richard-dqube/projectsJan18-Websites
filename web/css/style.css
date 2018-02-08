@@ -1238,7 +1238,7 @@ form.form_w3layouts {
 .contact-form input[type="text"],
 .contact-form input[type="email"] {
     width: 47.7%;
-    color: #fff;
+    color: #000;
     background: none;
     outline: none;
     font-size: 1em;
@@ -1256,7 +1256,7 @@ input.email {
     resize: none;
     width: 100%;
     background: none;
-    color: #fff;
+    color: #000;
     font-size: 1em;
     outline: none;
     padding: .6em .8em;
@@ -1320,7 +1320,7 @@ input.email {
 /*-- subscribe --*/
 
 .subscribe-main {
-    padding-bottom: 1em;
+    padding: 1em 0 0em;
 }
 
 .subscribe-head h4.sec-title {
@@ -1751,6 +1751,8 @@ span.icon_g_plus {
         width: 100%;
         background: rgba(0, 0, 0, 0.79);
         border: none;
+        margin-left: 0;
+        margin-right: 0;
     }
     .navbar-nav>li {
         text-align: center;
@@ -2239,4 +2241,3 @@ span.icon_g_plus {
 
 
 /* -- //Responsive code -- */
-
