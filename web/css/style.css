@@ -6,7 +6,9 @@
 
 body {
     margin: 0;
+/*
     font-family: 'Roboto', sans-serif;
+*/  font-family: 'play';
     background: #fff;
 }
 
@@ -27,7 +29,10 @@ h4,
 h5,
 h6 {
     margin: 0;
+/*
     font-family: 'Redressed', cursive;
+*/
+    font-family: 'play';
 }
 
 p {
@@ -72,7 +77,10 @@ h1 a.navbar-brand {
     padding: 24px 0 0;
     position: relative;
     text-transform: capitalize;
+/*
     font-family: 'Emilys Candy', cursive;
+*/
+    font-family: 'play';
 }
 
 h1 img {
@@ -118,7 +126,7 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #e01414;
+    color: #8a2be2;
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
@@ -167,7 +175,7 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
 }
 
 .navbar-default .navbar-nav>li.active>a::before {
-    color: #e01414;
+    color: #8a2be2;
 }
 
 
@@ -179,7 +187,8 @@ h5.sec-title {
     font-size: 3em;
     color: #000;
     text-transform: capitalize;
-    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'play';
     font-weight: 300;
 }
 
@@ -190,14 +199,14 @@ h5.sec-title {
 }
 
 .dropdown-menu {
-    background: #e01414;
+    background: #8a2be2;
 }
 
 .navbar-default .navbar-nav>.open>a,
 .navbar-default .navbar-nav>.open>a:hover,
 .navbar-default .navbar-nav>.open>a:focus {
-    color: #e01414;
-    background-color: #000;
+    color: #8a2be2;
+    background-color: transparent;
 }
 
 .dropdown-menu li a {
@@ -212,6 +221,8 @@ h5.sec-title {
 .dropdown-menu {
     min-width: 150px;
     padding: 0;
+    width: 100%;
+    color: black;
 }
 
 .dropdown-menu>.active>a,
@@ -219,7 +230,7 @@ h5.sec-title {
 .dropdown-menu>.active>a:focus {
     color: #fff;
     text-decoration: none;
-    background-color: #e01414;
+    background-color: #8a2be2;
     outline: 0;
 }
 
@@ -351,7 +362,7 @@ ul.dropdown-menu:hover a.s-menu {
 
 .boxName {
     font-size: 14px;
-    color: #e01414;
+    color: #8a2be2;
     font-weight: bold;
     text-transform: uppercase;
     clear: both;
@@ -376,7 +387,8 @@ h2.title {
     color: #ffffff;
     font-size: 5.6em;
     letter-spacing: 1px;
-    font-family: 'Redressed', cursive;
+   /* font-family: 'Redressed', cursive;*/
+    font-family: 'play';
     text-transform: capitalize;
     border: solid #f30000;
     border-width: 1px 0;
@@ -389,7 +401,8 @@ h2.title {
 .about-left-grid h3 {
     font-size: 3em;
     text-transform: capitalize;
-    font-family: 'Emilys Candy', cursive;
+    /*font-family: 'Emilys Candy', cursive;*/
+    font-family: 'play';
     font-weight: bold;
     border-bottom: 1px solid #9e9e9e;
     line-height: 1.2;
@@ -398,7 +411,9 @@ h2.title {
 
 h4.title {
     font-size: 2em;
+/*
     font-family: 'Roboto', sans-serif;
+*/  font-family: 'play';
     margin: 1em 0 0.5em;
     font-weight: 600;
     color: #292929;
@@ -413,21 +428,24 @@ h3.main-title {
     font-size: 2.6em;
     font-weight: 600;
     letter-spacing: 1px;
+/*
     font-family: 'Alegreya Sans', sans-serif;
+*/  font-family: 'play';
     text-transform: capitalize;
 }
 
 .team-grids {
     padding: 0;
+    margin-left: 4%;
 }
 
 .team-grids:nth-child(even) {
-    margin-top: 7em;
+    margin-top: 0em;
 }
 
 h5.sec-title span {
     font-weight: 300;
-    color: #e01414;
+    color: #8a2be2;
 }
 
 
@@ -456,7 +474,7 @@ h5.sec-title span {
     display: inline-block;
     background: #000;
     padding: 7px 12px;
-    color: #e01414;
+    color: #8a2be2;
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 600;
@@ -472,7 +490,7 @@ h5.sec-title span {
 .about-right-grid {
     background: url(../images/a1.jpg) no-repeat center;
     background-size: cover;
-    min-height: 727px;
+    min-height: 627px;
 }
 
 .inner-about {
@@ -480,7 +498,7 @@ h5.sec-title span {
 }
 
 .inner-about2 {
-    background: #e01414;
+    background: #8a2be2;
     padding: 17em 2em 2em;
 }
 
@@ -506,7 +524,7 @@ h5.sec-title span {
 }
 
 .ab1-icon {
-    background: #e01414;
+    background: #8a2be2;
     text-align: center;
     width: 56px;
     height: 56px;
@@ -537,7 +555,7 @@ h5.sec-title span {
 }
 
 .about-bottom-left h5 {
-    color: #e01414;
+    color: #8a2be2;
     text-align: right;
     font-size: 3em;
     padding: 2em 0 0;
@@ -762,7 +780,7 @@ h5.sec-title span {
     width: 10px;
     height: 10px;
     display: block;
-    background: #e01414;
+    background: #8a2be2;
     display: inline-block;
     border: none;
     border-radius: 50%;
@@ -820,7 +838,7 @@ ul#slider4 h4 {
 
 h3.title {
     font-size: 3em;
-    color: #e01414;
+    color: #8a2be2;
     text-transform: capitalize;
     border-bottom: 4px solid #483c6a;
 }
@@ -835,7 +853,7 @@ h3.title {
 }
 
 .slider-right p {
-    color: #e01414;
+    color: #8a2be2;
     background: #fff;
     font-size: 1.2em;
     padding: 1em;
@@ -927,7 +945,7 @@ slider-right:nth-child(odd) {
 }
 
 .team-grids:hover .team-text {
-    background-color: #e01414;
+    background-color: #8a2be2;
 }
 
 .team-grids:hover .team-text p {
@@ -1162,10 +1180,12 @@ slider-right:nth-child(odd) {
 }
 
 .team-w3ls-txt h6 {
+/*
     font-family: 'Roboto', sans-serif;
+*/  font-family: 'play';
     font-size: 1.8em;
     text-transform: capitalize;
-    color: #e01414;
+    color: #8a2be2;
     margin-bottom: 0.2em;
 }
 
@@ -1201,7 +1221,7 @@ slider-right:nth-child(odd) {
 
 .contact-form h5 {
     font-size: 2em;
-    color: #e01414;
+    color: #8a2be2;
     text-transform: capitalize;
 }
 
@@ -1283,7 +1303,7 @@ input.email {
 
 .contact-form input[type="submit"]:hover,
 .contact-form input[type="reset"]:hover {
-    background: #e01414;
+    background: #8a2be2;
     color: #fff;
 }
 
@@ -1346,7 +1366,7 @@ input.email {
 .subscribe-main h5 {
     font-size: 2em;
     letter-spacing: 2px;
-    color: #e01414;
+    color: #8a2be2;
     font-weight: 300;
     line-height: 1.3;
 }
@@ -1369,7 +1389,7 @@ input.email {
 }
 
 .subscribe-main input[type="submit"]:hover {
-    background: #e01414;
+    background: #8a2be2;
     color: #fff;
 }
 
@@ -1758,11 +1778,13 @@ span.icon_g_plus {
         text-align: center;
     }
     .dropdown-menu li a {
-        color: #e01414 !important;
+        color: #000 !important;
         text-align: center;
+        width: 100%;
+        background-color: #8a2be2;
     }
     .dropdown-menu li a:hover {
-        color: #fff !important;
+        color: #8a2be2  !important;
     }
     .navbar-toggle {
         margin-right: 2em;
@@ -1782,7 +1804,7 @@ span.icon_g_plus {
         background: transparent;
     }
     .navbar-default .navbar-toggle .icon-bar {
-        background: #e01414;
+        background: #8a2be2;
     }
     .navbar-default .navbar-brand {
         padding-left: 1em;
@@ -2241,3 +2263,42 @@ span.icon_g_plus {
 
 
 /* -- //Responsive code -- */
+
+.carouselText {
+    
+    color:#8a2be2;
+    font-family: play;
+    font-size: 55px;
+}
+
+
+.teamText{
+     padding-top: 20%;
+    padding-bottom: 12.55%;
+    padding-left: 15%;
+    padding-right: 10%;
+    text-align: right
+    
+}
+
+#this {
+    margin-bottom:.8em;
+}
+
+.carouselCaption {
+    top: 50%;
+transform: translateY(-50%);
+    bottom: initial;
+}
+.item{
+    -webkit-transform-style: preserve-3d;
+-moz-transform-style: preserve-3d;
+transform-style: preserve-3d;
+}
+
+
+
+#bold {
+    font-weight: bolder;
+    font-size: 17px;
+}
