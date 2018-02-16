@@ -81,9 +81,10 @@
 <!--
 Fixed Navigation
 ==================================== -->
-<header  class="navigation navbar navbar-fixed-top">
-   <div class="container">
-      <div  class="navbar-header">
+<header id="nav-sticky"  class="navigation navbar navbar-fixed-top">
+   <div class="container-fluid">
+           
+      <div id="nav-head"  class="navbar-header">
          <!-- responsive nav button -->
          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
          <span class="sr-only">Toggle navigation</span>
@@ -93,9 +94,9 @@ Fixed Navigation
          </button>
          <!-- /responsive nav button -->
          <!-- logo -->
-         <a class="navbar-brand logo" href="index.html">
-            <img class="logo-default" src="images/logo.png" alt="logo" />
-            <img class="logo-white" src="images/logo.png" alt="logo" />
+         <a id="nav-brand-img" class="navbar-brand logo" href="index.html">
+            <img class="logo-default logo-image" src="images/Logo/FullPNG.png" alt="logo" />
+            <img  class="logo-white logo-image" src="images/Logo/FullWhitePNG.png" alt="logo" />
          </a>
          <!-- /logo -->
       </div>
@@ -112,35 +113,38 @@ Fixed Navigation
              </li>-->
              <li><a href="index.html">Home Page</a></li>
              <li class="dropdown">
-                  <a href="certification.html">CERTIFICATION <span class="caret"></span></a>
+                  <a>CERTIFICATION <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                     <li><a href="#">Ship certification</a></li>
-                     <li><a href="#">Seafarers certification</a></li>
-                     <li><a href="#">Quality Certification</a></li>
-                     <li><a href="#">Statutory Certification</a></li>
-                     <li><a href="#">Skill Certification</a></li>
+                     <li><a href="certification2Ship.html">Ship certification</a></li>
+                     <li><a href="certification3Seafarer.html">Seafarers certification</a></li>
+                     <li><a href="certification4Quality.html">Quality Certification</a></li>
+                     <li><a href="certification6Statutory.html">Statutory Certification</a></li>
+                     <li><a href="certifiation5Skill.html">Skill Certification</a></li>
+                     <li><a href="certification.html">All Certifications</a></li>
                   </ul>
              </li>
              <li class="dropdown">
-                  <a href="accreditation.html">ACCREDITATION<span class="caret"></span></a>
+                  <a>ACCREDITATION<span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                     <li><a href="#">Accreditation for Schools</a></li>
-                     <li><a href="#">Accreditation for Institutes</a></li>
-                     <li><a href="#">Accreditation for Universities</a></li>
+                     <li><a href="accreditation1School.html">Accreditation for Schools</a></li>
+                     <li><a href="accreditation2Institutes.html">Accreditation for Institutes</a></li>
+                     <li><a href="accreditation3Universities.html">Accreditation for Universities</a></li>
+                     <li><a href="accreditation.html">All Accreditations</a></li>
                   </ul>
              </li>
-             <li class="dropdown">
-                  <a href="circular.html">CIRCULARS<span class="caret"></span></a>
-                  <ul class="dropdown-menu">
+             <!--<li class="dropdown">-->
+                  <!--<a href="circular.html">CIRCULARS</a>--> <!--<spanclass="caret"></span>-->
+                  <!--<ul class="dropdown-menu">
                      <li><a href="#">Marine Circulars</a></li>
                      <li><a href="#">General Circulars</a></li>
-                  </ul>
-             </li>
+                  </ul>-->
+         <!--    </li>-->
              <!--  <li><a href="about.html">About Us</a></li>
                <li><a href="service.html">Services</a></li>
                <li><a href="portfolio.html">Portfolio</a></li>
                <li><a href="team.html">Team</a></li>
                <li><a href="pricing.html">Pricing</a></li>-->
+             <li><a href="circular.html">Circular</a></li>
              <li><a href="join.html">Join Us</a></li>
              <li><a href="contact.html">Contact</a></li>
              <!--<li class="dropdown">
@@ -329,7 +333,7 @@ End Fixed Navigation
     <div class="container">
       <div class="row">
         <div class="col-sm-3 col-md-3 col-lg-3">
-                     <img src="images/otho-footer-3.png"     alt="logo" />
+                     <img id="footer-media" class="footer-image" src="images/Logo/FullWhitePNG.png" alt="logo" />
         </div>
         <!-- End of .col-sm-3 -->
 
@@ -361,7 +365,7 @@ End Fixed Navigation
     </div> <!-- end container -->
   </div>
   <div class="footer-bottom">
-    <h5>Copyright 2018. All rights reserved.</h5>
+    <h5>&copy; Otho Register 2018. All rights reserved.</h5>
   </div>
 </footer> <!-- end footer -->
 

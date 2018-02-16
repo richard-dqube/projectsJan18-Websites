@@ -579,7 +579,7 @@ a:focus, a:hover {
 }
 
 .navigation .navbar-nav > li > a:hover, .navigation .navbar-nav > li > a:active, .navigation .navbar-nav > li > a:focus {
-  background: none;
+  background: transparent;
   color: #28ABE3;
 }
 
@@ -614,7 +614,7 @@ a:focus, a:hover {
 
 .navigation .dropdown .dropdown-menu li a:hover {
   padding-left: 20px;
-  background: transparent;
+  background: black;
   color: #fff;
 }
 
@@ -2352,7 +2352,7 @@ a:focus, a:hover {
 }
 
 .home-align {
-    padding-top: 5%;
+    padding-top: 10%;
     padding-bottom: 5%;
     text-align: justify;
 }
@@ -2369,20 +2369,21 @@ tab-space {
 }
 
 .footer-image {
-    padding-left: 8%;
-    padding-top: 4.5%;
+width: 100%;
+    padding-top:30px;
 }
 
 
+/*
 
 .navbar-header {
     width: 280px;
     height: 100px;  
 }
+*/
 
 .logo-image {
-    width: 1000%;
-    height:110px;
+   height: 95px;
 }
 
 .menu {
@@ -2423,10 +2424,31 @@ tab-space {
 
 @media (max-width: 1090px) and (min-width: 700px){
     #nav-brand-img {
-   width:inherit;
+   width:35%;
     }
 }
 
 #nav-sticky {
     height:100px;
+}
+
+@media(min-width: 320px) and (max-width:415px){
+    
+    #footer-media {
+    margin-top:-30%;
+}
+} 
+
+
+#content-img {
+    padding-top: 50px;
+    padding-left: 50px;
+    width:400px;
+    height:300px;
+}
+@media (min-width:320) and (max-width:420){
+    #content-img-media {
+        
+        padding-left:0px;
+    }
 }
