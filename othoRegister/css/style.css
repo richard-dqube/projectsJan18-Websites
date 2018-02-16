@@ -137,6 +137,9 @@ body {
 }*/
 
 /*//Form CSS*/
+
+
+
 body {
   line-height: 1.4;
   font-family: "Source Sans Pro", sans-serif;
@@ -524,8 +527,10 @@ a:focus, a:hover {
 }
 
 .logo {
-  margin-top: 10px;
+  /*margin-top: 10px;*/
   display: inline-block;
+    width:10%;
+    height: 10%;
 }
 
 .single-page-header {
@@ -1709,7 +1714,7 @@ a:focus, a:hover {
   background-color: #222222;
   border-top: 1px solid #404040;
   padding: 100px 0 80px;
-    margin-bottom: -8%;
+    margin-bottom: -4%;
 }
 
 .top-footer h3 {
@@ -2008,6 +2013,8 @@ a:focus, a:hover {
   /* navigation */
   .navbar-fixed-top {
     padding-bottom: 10px;
+      background-color: black;
+      
   }
   .navbar-inverse .navbar-toggle,
   .navbar-inverse .navbar-toggle .icon-bar {
@@ -2030,9 +2037,11 @@ a:focus, a:hover {
   .navbar-toggle {
     margin-top: 22px;
   }
-  .navbar-nav {
-    margin: 0 -15px;
-  }
+ @media (min-width: 768px)
+     .navbar-nav{
+         
+         float:left;
+    }
   .navbar-inverse .navbar-nav li a {
     line-height: 45px;
     padding: 0;
@@ -2170,6 +2179,7 @@ a:focus, a:hover {
   }
   .navbar-fixed-top {
     padding-bottom: 10px;
+      
   }
   .navbar-brand {
     padding: 10px 0 10px 10px;
@@ -2339,4 +2349,84 @@ a:focus, a:hover {
 
 .map-hover:hover {
     background-color: aliceblue;
+}
+
+.home-align {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: justify;
+}
+
+tab-space {
+    padding: 5em;
+}
+
+.home-align-tick {
+    padding-top: 3%;
+    padding-left: 8%;
+    padding-bottom: 5%;
+    text-align: justify;
+}
+
+.footer-image {
+    padding-left: 8%;
+    padding-top: 4.5%;
+}
+
+
+
+.navbar-header {
+    width: 280px;
+    height: 100px;  
+}
+
+.logo-image {
+    width: 1000%;
+    height:110px;
+}
+
+.menu {
+    padding-top: 20px;
+}
+
+@media (min-width: 768px)
+    .navbar-nav {
+    float:left;
+}
+
+@media (min-width: 768px)
+    .navbar-nav{
+        float : left;
+}
+
+.navbar-nav {
+    
+}
+
+@media (min-width: 700px) and (max-width: 1090px) {
+     #nav 
+     { margin-top: -20%;
+            float: right;
+         height:100px;
+         padding:0px;
+     }
+               
+        }
+
+@media (min-width: 768px)and (max-width: 1090px){
+    
+    #nav-head {
+    float:inherit;
+}
+}
+
+
+@media (max-width: 1090px) and (min-width: 700px){
+    #nav-brand-img {
+   width:inherit;
+    }
+}
+
+#nav-sticky {
+    height:100px;
 }

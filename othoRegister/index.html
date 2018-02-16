@@ -52,6 +52,10 @@
   <link rel="stylesheet" type="text/css" href="css/colors/light-blue.css" title="light-blue">
   <link rel="stylesheet" type="text/css" href="css/colors/yellow.css" title="yellow">
   <link rel="stylesheet" type="text/css" href="css/colors/light-green.css" title="light-green">
+    
+    <!--Custom Css-->
+    <link rel="stylesheet" href="css/custom.css">
+
   
 
 </head>
@@ -81,9 +85,10 @@
 <!--
 Fixed Navigation
 ==================================== -->
-<header  class="navigation navbar navbar-fixed-top">
-   <div class="container">
-      <div  class="navbar-header">
+<header id="nav-sticky"  class="navigation navbar navbar-fixed-top">
+   <div class="container-fluid">
+           
+      <div id="nav-head"  class="navbar-header">
          <!-- responsive nav button -->
          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
          <span class="sr-only">Toggle navigation</span>
@@ -93,9 +98,9 @@ Fixed Navigation
          </button>
          <!-- /responsive nav button -->
          <!-- logo -->
-         <a class="navbar-brand logo" href="index.html">
-            <img class="logo-default" src="images/logo.png" alt="logo" />
-            <img class="logo-white" src="images/logo.png" alt="logo" />
+         <a id="nav-brand-img" class="navbar-brand logo" href="index.html">
+            <img class="logo-default logo-image" src="images/Logo/FullPNG.png" alt="logo" />
+            <img  class="logo-white logo-image" src="images/Logo/FullWhitePNG.png" alt="logo" />
          </a>
          <!-- /logo -->
       </div>
@@ -114,33 +119,34 @@ Fixed Navigation
              <li class="dropdown">
                   <a href="certification.html">CERTIFICATION <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                     <li><a href="#">Ship certification</a></li>
-                     <li><a href="#">Seafarers certification</a></li>
-                     <li><a href="#">Quality Certification</a></li>
-                     <li><a href="#">Statutory Certification</a></li>
-                     <li><a href="#">Skill Certification</a></li>
+                     <li><a href="certification2Ship.html">Ship certification</a></li>
+                     <li><a href="certification3Seafarer.html">Seafarers certification</a></li>
+                     <li><a href="certification4Quality.html">Quality Certification</a></li>
+                     <li><a href="certification6Statutory.html">Statutory Certification</a></li>
+                     <li><a href="certifiation5Skill.html">Skill Certification</a></li>
                   </ul>
              </li>
              <li class="dropdown">
                   <a href="accreditation.html">ACCREDITATION<span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                     <li><a href="#">Accreditation for Schools</a></li>
-                     <li><a href="#">Accreditation for Institutes</a></li>
-                     <li><a href="#">Accreditation for Universities</a></li>
+                     <li><a href="accreditation1School.html">Accreditation for Schools</a></li>
+                     <li><a href="accreditation2Institutes.html">Accreditation for Institutes</a></li>
+                     <li><a href="accreditation3Universities.html">Accreditation for Universities</a></li>
                   </ul>
              </li>
-             <li class="dropdown">
-                  <a href="circular.html">CIRCULARS<span class="caret"></span></a>
-                  <ul class="dropdown-menu">
+             <!--<li class="dropdown">-->
+                  <!--<a href="circular.html">CIRCULARS</a>--> <!--<spanclass="caret"></span>-->
+                  <!--<ul class="dropdown-menu">
                      <li><a href="#">Marine Circulars</a></li>
                      <li><a href="#">General Circulars</a></li>
-                  </ul>
-             </li>
+                  </ul>-->
+         <!--    </li>-->
              <!--  <li><a href="about.html">About Us</a></li>
                <li><a href="service.html">Services</a></li>
                <li><a href="portfolio.html">Portfolio</a></li>
                <li><a href="team.html">Team</a></li>
                <li><a href="pricing.html">Pricing</a></li>-->
+             <li><a href="circular.html">Circular</a></li>
              <li><a href="join.html">Join Us</a></li>
              <li><a href="contact.html">Contact</a></li>
              <!--<li class="dropdown">
@@ -213,7 +219,7 @@ Start About Section
         </div>-->
       <div class="col-md-12">
        <!--  <div class="row text-center">
-         <div class="col-md-6 col-sm-6 col-xs-12">
+         <div class="col-md-6 col-sm-6 col-lg-6 home-aligncol-sm-6 col-xs-12">
             <div class="service-item">
               <i class="tf-ion-ios-alarm-outline"></i>
               <h4>Time Management</h4>
@@ -275,11 +281,11 @@ Start About Section
 		<div class="row">
 		
 			<!-- section title -->
-			<div class="col-md-6 title text-center"  >
+			<div class="col-md-6 col-sm-6 col-lg-6 home-align">
 <!--
 				<h2>We Are OTHO REGISTER</h2>
 -->
-                <p style="font-size: 20px;"><br><br><br><br><br><span id="color-highlight">OTHO REGISTER</span> is a privately held maritime, corporate, Quality & Skill certification service provider, specializing in the needs of the shipping, Training financial services industries across a broad commercial and economic spectrum. Headquartered in Sofia, Bulgaria.<br><br>
+                <p style="font-size: 20px;"><span id="color-highlight">OTHO REGISTER</span> is a privately held maritime, corporate, Quality & Skill certification service provider, specializing in the needs of the shipping, Training financial services industries across a broad commercial and economic spectrum. Headquartered in Sofia, Bulgaria.<br>
                 <!--The Otho Register offers various certification services . We offer statutory survey and certification package that is a cost-effective and efficient solution to consolidating services and costs.<br><br>
                 Otho Register is a voluntary, nongovernmental process that includes a rigorous external review of  ability to provide the highest quality. The accreditation process is a comprehensive review of qualifications, and curriculam , and the process includes self-evaluations, peer-reviews, committee reviews, and the development of in-depth strategic plans.<br>
 </p>-->
@@ -289,8 +295,8 @@ Start About Section
 			</div>
 			<!-- /section title -->
 
-			<div class="col-md-6">
-                       <br><br> <img src="images/otho-register-logo-home.png"  class="img-responsive" alt="img">
+			<div class="col-md-6 col-sm-6 col-lg-6 home-align">
+                        <img src="images/logo(two).png"  class="img-responsive" alt="img">
 			</div>
 			<!--<div class="col-md-6">
 				<ul class="checklist">
@@ -313,10 +319,10 @@ Start About Section
 		<div class="row">
 		
 			<!-- section title -->
-			<div class="col-md-6 ">
+			<div class="col-md-6 col-sm-6 col-lg-6">
 <!--
 				<h2>We Are OTHO REGISTER</h2>
---><br><br> <img src="images/certification-home.png" class="img-responsive" alt="img">
+--> <img src="images/certification-home.png" class="img-responsive" alt="img">
 				
 <!--
 				<div class="border"></div>
@@ -324,9 +330,9 @@ Start About Section
 			</div>
 			<!-- /section title -->
 
-			<div class="col-md-6 title text-center">
+			<div class="col-md-6 col-sm-6 col-lg-6 home-align">
                       
-                <p style="font-size: 20px;"><br><br><br><br><br><br>The <span id="color-highlight">OTHO REGISTER</span> offers various certification services . We offer statutory survey and certification package that is a cost-effective and efficient solution to consolidating services and costs.<br><br>
+                <p style="font-size: 20px;">The <span id="color-highlight">OTHO REGISTER</span> offers various certification services . We offer statutory survey and certification package that is a cost-effective and efficient solution to consolidating services and costs.<br><br>
                 
 </p>
 			</div>
@@ -355,11 +361,11 @@ Start About Section
 		<div class="row">
 		
 			<!-- section title -->
-			<div class="col-md-6 title text-center"  >
+			<div class="col-md-6 col-sm-6 col-lg-6 home-align">
 <!--
 				<h2>We Are OTHO REGISTER</h2>
 -->
-				<p style="font-size: 20px;"><br><br><br><br>
+				<p style="font-size: 20px;">
                     <span id="color-highlight">OTHO REGISTER</span> is a voluntary, nongovernmental process that includes a rigorous external review of  ability to provide the highest quality. The accreditation process is a comprehensive review of qualifications, and curriculam , and the process includes self-evaluations, peer-reviews, committee reviews, and the development of in-depth strategic plans.<br>
 </p>
 <!--
@@ -368,10 +374,10 @@ Start About Section
 			</div>
 			<!-- /section title -->
 
-			<div class="col-md-6">
-                       <br><br> <img src="images/accreditation.png"  class="img-responsive" alt="img">
+			<div class="col-md-6 col-sm-6 col-lg-6 home-align-tick">
+                        <img src="images/accreditation.png"  class="img-responsive" alt="img">
 			</div>
-			<!--<div class="col-md-6">
+			<!--<div class="col-md-6 col-sm-6 col-lg-6"home-align>
 				<ul class="checklist">
                    <li>Donec sed odio dui. Aenean eu leo quam. Pellentesque ornare sem laca quam venenatis vestibulum.</li>
                     <li>Aenean quam. Pellentesque ornare sem laca quam venenatis vestibulum.</li>
@@ -625,8 +631,8 @@ Start Call To Action
   <div class="top-footer">
     <div class="container">
       <div class="row">
-        <div class="col-sm-3 col-md-3 col-lg-3">
-                     <img class="logo-default" src="images/otho%20icon%20wo-bg-2.jpg.png" alt="logo" />
+        <div class="col-sm-3 col-md-3 col-lg-3 footer-image">
+                     <img src="images/otho-icon-2.jpg"     alt="logo" />
         </div>
         <!-- End of .col-sm-3 -->
 
@@ -658,8 +664,7 @@ Start Call To Action
     </div> <!-- end container -->
   </div>
   <div class="footer-bottom">
-    <h5>Copycenter 2018. All centers reserved.</h5>
-    <h6>Developed by <a href="https://www.dqubeglobal.com">DqubeGlobal</a></h6>
+    <h5>&copy; Otho Register 2018. All rights reserved.</h5>
   </div>
 </footer> <!-- end footer -->
 
