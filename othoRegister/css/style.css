@@ -2279,7 +2279,7 @@ a:focus, a:hover {
 #headders {
     font-size: 50px;
     text-align: center;
-    color: 
+    padding-bottom: 50px; 
 }
 
 #color-highlight {
@@ -2361,9 +2361,9 @@ tab-space {
     padding: 5em;
 }
 
-.home-align-tick {
+.home-align-iso {
     padding-top: 3%;
-    padding-left: 8%;
+    padding-left: 4%;
     padding-bottom: 5%;
     text-align: justify;
 }
@@ -2440,15 +2440,20 @@ width: 100%;
 } 
 
 
-#content-img {
+.content-img {
     padding-top: 50px;
     padding-left: 50px;
     width:400px;
     height:300px;
 }
 @media (min-width:320) and (max-width:420){
-    #content-img-media {
+    .content-img-media {
         
         padding-left:0px;
     }
+}
+
+#about {
+    padding-top:20px;
+    padding-bottom: 20px;
 }
